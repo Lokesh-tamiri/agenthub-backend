@@ -13,7 +13,7 @@ app.get('/', (req: Request, res: Response) => {
 });
 
 app.get('/api', (req: Request, res: Response) => {
-  res.status(500).json({ message: 'Hello, welpranecome to my API!' });
+  res.status(500).json({ message: 'Hello, welpranaecome to my API!' });
 });
 
 app.listen(PORT, () => {

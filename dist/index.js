@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
     res.send('Hello, welcome to my app!');
 });
 app.get('/api', (req, res) => {
-    res.status(500).json({ message: 'Hello, welpranecome to my API!' });
+    res.status(500).json({ message: 'Hello, welpranaecome to my API!' });
 });
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
