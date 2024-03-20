@@ -30,8 +30,10 @@ jobs:
         run: |
           pushd './${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
           npm install
+          npm install -D typescript
+          npm install -D ts-node
           npm run build --if-present
-          npm run start
+          npm run dev
           popd
 
       - name: Zip artifact for deployment
