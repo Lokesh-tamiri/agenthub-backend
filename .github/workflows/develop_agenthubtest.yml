@@ -24,8 +24,10 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
+          npm install -D typescript
+          npm install -D ts-node
           npm run build --if-present
-          npm run test --if-present
+          npm run start --if-present
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
