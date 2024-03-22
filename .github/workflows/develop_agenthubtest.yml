@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'agenthubtest'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1ADD7A54A7634A3FB8798783957569A8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FE691FD29A914444ADFC584ED2536438 }}
           package: .
